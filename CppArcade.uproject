@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.25",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "CppArcade",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Paper2D",
+			"Enabled": false
+		}
+	],
+	"TargetPlatforms": [
+		"Android",
+		"AllDesktop",
+		"WindowsNoEditor"
+	]
+}
